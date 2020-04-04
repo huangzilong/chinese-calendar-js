@@ -1,0 +1,8 @@
+package.json
+package.lock.json
+.eslintignore
+.editorconfig
+.prettierignore
+.gitignore
+.DS_Store
+/lib

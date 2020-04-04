@@ -1,0 +1,37 @@
+{
+  "name": "chinese-calendar",
+  "version": "1.0.0",
+  "description": "中国法定节假日",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "prettier": "prettier -c --write \"**/*\"",
+    "lint": "eslint --ext .ts,.js, --format=pretty src",
+    "lint:fix": "eslint --fix --ext .ts,.js, --format=pretty src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangzilong/chinese-calendar-js.git"
+  },
+  "keywords": [
+    "日历",
+    "法定节假日"
+  ],
+  "author": "huangzilongg@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huangzilong/chinese-calendar-js/issues"
+  },
+  "homepage": "https://github.com/huangzilong/chinese-calendar-js#readme",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@umijs/fabric": "^2.0.7",
+    "babel-jest": "^25.2.6",
+    "eslint": "^6.8.0",
+    "jest": "^25.2.7",
+    "prettier": "^2.0.2",
+    "ts-jest": "^25.3.1",
+    "typescript": "^3.8.3"
+  }
+}
