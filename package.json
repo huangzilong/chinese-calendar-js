@@ -1,6 +1,6 @@
 {
   "name": "chinese-calendar",
-  "version": "1.0.1-rc.5.0",
+  "version": "1.0.2",
   "description": "中国法定节假日",
   "main": "lib/index.js",
   "scripts": {
