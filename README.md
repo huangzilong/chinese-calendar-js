@@ -15,7 +15,7 @@
 - NodeJS 下
 
 ```JavaScript
-  const caledar = require('chinese-calendar)
+  const calendar = require('chinese-calendar)
   calendar.isHoliday('2020-10-08') // true
   calendar.getHolidayDetail('2020-10-07') // ['National Day', '国庆节', 3]
 ```
