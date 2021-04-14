@@ -8,7 +8,7 @@ const getHolidayDetail = (day: string): (string | number)[] => {
   return Holidays.get(day) || []
 }
 
-export {
+export default {
   isHoliday,
   getHolidayDetail,
 }
